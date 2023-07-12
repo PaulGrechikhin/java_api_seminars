@@ -8,16 +8,16 @@ public class task3 {
     static int scanNumber() {
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
+        scan.close();
         return number;
-        // scan.close(); Почему не получается закрыть Scanner???
     }
 
     // метод получения числа операции
     static String scanOperations() {
         Scanner scan = new Scanner(System.in);
         String operations = scan.nextLine();
+        scan.close();
         return operations;
-
     }
 
     // метод получения результата
